@@ -124,3 +124,44 @@ Designer notes left on the canvas show the library was being cleaned up and cons
 ## 8. Still open
 
 See `PROGRESS.md` for the current list of questions.
+
+## 9. Trend Micro: owner's answers and Figma review (Oct 30, 2026)
+
+**Owner's answers**
+- Audit and guidelines file: https://www.figma.com/design/FZTg7N8lsD83uimd7RdrfB/Patterns_Page-Guideline?node-id=0-1
+- The 11 guidelines: modal/drawer/page, empty state, loading, error state, table/cards/charts, account setting & header & navigation, sign in, reports, third-party integration, roles, accounts.
+- Guidelines include examples of what each product currently does. Rationale is backed by public systems: IBM Carbon, Ant Design, Adobe, and others.
+- Solo work. The owner reviewed the audit findings and guidelines with the design team.
+
+**What the file contains (read by Claude)**
+- **Scope:** the products are VicOne's (Trend Micro's automotive cybersecurity business): **xNexus, xZETA, SUMO**. Trend Micro's **Vision One** is used as the internal benchmark ("Inspirations from VisionOne"). `[ASK]` What was the 4th platform on the resume?
+- **Cover states two goals:** "Accelerate future design of similar features" and "Improve consistency across products."
+- **Three-layer model** on the intro slide:
+  1. Common features/pages (applied to all products)
+  2. Common patterns ("how components are used and organized")
+  3. Components (Tonic, the existing library)
+
+  The owner's work sits in layers 1 and 2, above the component library.
+- **Audit format, for each feature or pattern:**
+  - Purpose
+  - Side-by-side screenshots of each product
+  - Inspirations from Vision One
+  - "Thoughts": open questions, e.g. loading thresholds for skeleton vs. progressive loading, priority of inline actions, when to use a modal vs. a drawer, how to get value out of empty states
+- **Self-aware caveat on the audit:** "This is just a summary of thoughts based on my observation, not suggestions or advice … I don't know the rationale behind most of the designs." `[ASK]` How did they move from observations to rationale?
+- **Guidelines are separate pages** after the audit: 5 under "Patterns" and 6 under "Page" (11 total, matching the owner's list).
+- **Modal / Drawer / Page guideline** (strongest candidate for an in-depth slide):
+  - A decision tree: "Require user input/decision?", "Large amount of information?", "Often cross check with primary content?", "Will the same content be edited again or only viewed?"
+  - Rules for overlays (full-page vs. in-page, with trade-offs)
+  - Drawer (view) vs. drawer (edit) behavior, e.g. no slide transition when switching content; a confirmation if the user leaves with unsaved edits
+  - Page rules (back button keeps state, e.g. returns to page 3 of the table)
+  - "Cases to be verified" and "Trigger point (to be iterated)" sections
+  - A real example: "Anomaly Events > View in Rule Management". `[ASK]` This is literally detect → act, a possible honest bridge to the robotics workflow.
+- **README** points to a separate doc, "Patterns Guideline_Collaboration Practice," on how to CREATE and MAINTAIN the guideline. `[ASK]` This is governance, the JD's "scalable mechanisms."
+
+**Mentor read (to confirm with the owner)**
+- **The growth story is sharper than expected:**
+  - **BenQ:** team effort; system extracted while building one product; components plus rules.
+  - **Trend Micro:** solo; audit across products; built the layer above components (patterns and decision rules); benchmarked against an internal best-in-class product and public systems; wrote a maintenance process.
+- **The robotics bridge needs new footing.** The patterns are organized by layer, not by the identify/detect/analyze/recover workflow. The resume phrase describes product scope. Better candidates:
+  - the decision-rule approach
+  - the Anomaly Events → Rule Management flow

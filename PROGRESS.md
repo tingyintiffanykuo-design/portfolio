@@ -8,7 +8,9 @@ _Last updated: Oct 30, 2026_
 
 Order: (1) interview slide deck, which is the priority and must be thorough; (2) 1-page web version; (3) full case study.
 
-Status: BenQ facts collected and the BenQ Figma files reviewed. Deck outline v1 drafted. Waiting on: Trend Micro answers, deck tool and format, and the `[NEED]` items in the outline.
+Mode: **mentor and discovery. Do not build slides until the owner asks.** Ask clarifying questions and help the owner pull the important points out of their experience.
+
+Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audit and guideline files reviewed (notes section 9). Deck outline v1 exists but is on hold. Open `[ASK]` items are in notes section 9.
 
 **Reminder for Claude:** while building the Trend Micro and synthesis slides, ask the owner for more detail on the identify → detect → analyze → recover mapping before using the robotics parallel.
 
@@ -22,6 +24,7 @@ Status: BenQ facts collected and the BenQ Figma files reviewed. Deck outline v1 
 | Oct 28, 2026 | Pause the DMS rewrite; prioritize a design systems case study | Amazon Robotics JD asks for "scalable mechanisms and reusable design patterns"; more urgent than DMS |
 | Oct 30, 2026 | Resume is the source of truth where it conflicts with the spec | Owner confirmed the resume claims |
 | Oct 30, 2026 | One combined BenQ + Trend Micro case study; deck first, then 1-page web, then full | Interview use is most urgent |
+| Oct 30, 2026 | Hold off on slides; work in mentor/discovery mode first | Owner wants to surface the strongest material before producing anything |
 | Oct 30, 2026 | Redraw internal Figma artifacts in English for the deck rather than screenshot them | Files are internal and in Chinese; spec requirement 7 |
 
 ## Parked (resume later)
@@ -29,6 +32,7 @@ Status: BenQ facts collected and the BenQ Figma files reviewed. Deck outline v1 
 - **DMS case study**: open questions 1-10 in the Oct 28 conversation, which mirror spec section 11, questions 1-9. Next step after answers: Priority 1 package (spec 8.3).
 - **Subtitle**: proposed dropping "lab teams" from candidate 1 ("Software that robot engineers and security analysts rely on, shaped by how they actually work."). Not yet confirmed.
 - **DMS "See next project" link**: points to the excluded e-commerce page. Fix pending a decision (Robot HMI vs. remove).
+- **Network:** www.benq.com is blocked by the cloud environment's network policy. To fix, add it under the environment's Network access > Allowed domains.
 - **Screenshots** of the DMS page images and GIFs: the owner will add them later. Ask when the visual review is needed.
 
 ## Notes
