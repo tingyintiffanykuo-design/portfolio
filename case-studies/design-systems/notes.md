@@ -30,7 +30,7 @@ _Started Oct 28, 2026. Target: Amazon Robotics Sr. Product Designer (`jobs/amazo
 ## 3. Honesty checks before writing
 
 1. **"First scalable design system for 5 platforms" vs. the spec's "first web design system."** Which is accurate? Interviewers will ask what the 5 platforms were.
-2. **Built vs. co-built.** BenQ had two UI designers who owned visuals. The case study has to say who owned what.
+2. **Built vs. co-built.** BenQ had two GUI (visual) designers who owned visuals. The case study has to say who owned what.
 3. **"Streamlining workflows" and "enhancing cohesive experience"** are outcome claims. What evidence exists (adoption, fewer handoff questions, faster builds, feedback)? If none, use qualitative statements only.
 4. **Adoption.** A design system nobody used is a different story from one teams adopted. Be specific about what shipped using it.
 5. **Confidentiality.** Patterns can usually be redrawn generically (structure, states, rules) without product screens. Confirm NDA limits.
@@ -178,13 +178,13 @@ See `PROGRESS.md` for the current list of questions.
 7. The "TBD" and "to be iterated" items were still open when the owner left. The Figma file is the latest version.
 
 **BenQ: "Design review & document release process"** (owner-built; https://www.figma.com/design/dal2F03sF1fDpL9ZiFuKRX/DMS-3---UI-flow--draft---Copy-?node-id=2863-40957)
-- **Flow:** initial draft → RD/GUI/PM comment → "UI" replies and revises → RD/GUI/PM resolve the thread → finalize → UI notifies "done revising" → big revamp needed? Yes: release an updated version. No: go back into the loop.
+- **Flow:** initial draft → RD/GUI/PM comment → UX (the owner's team) replies and revises → RD/GUI/PM resolve the thread → finalize → UX notifies "done revising" → big revamp needed? Yes: release an updated version. No: go back into the loop.
 - **Comment protocol,** with comments tagged by UI-flow version `[vX]`:
   1. New feature or design: UI adds the definition; RD reacts with an emoji to confirm it can be built, then resolves.
   2. Additions or changes to a definition: RD/GUI/PM comment; UI revises and replies with the new version plus "update"; the commenter resolves.
   3. Pure questions: no version tag; UI replies and the asker resolves.
 - Revised areas are color-marked so **QA can see what changed in each release**, and changes are logged in the version history.
-- `[ASK]` Is "UI" the UX/flow designers (the owner's role)?
+- "UI" in the original doc = the owner's team. BenQ's title was "UI designer," but the work was UX. **Always write UX designer.**
 
 **Trend Micro: "Patterns Guideline: Collaboration Practice"** (FigJam, owner-built). Two linked processes:
 - **A. Creating a pattern or page guideline:**
@@ -212,3 +212,30 @@ See `PROGRESS.md` for the current list of questions.
 - **The resistance story** (modal / drawer / page, as a new designer with no authority) is the most interview-worthy moment. It needs one specific scene.
 - **The audit's screenshot dates** (Dec 20, 2023 to Jan 3, 2024) suggest it started about 6 weeks after joining (Nov 2023). `[ASK]` Confirm.
 - **Resume wording to fix:** "11 reusable UI patterns across 4 software platforms" → 3 platforms. The 11 are really 5 pattern guidelines plus 6 page guidelines.
+
+## 11. Final discovery answers (Oct 30, 2026)
+
+**Terminology rule:** never say "UI designer" for the owner's BenQ role. It was a BenQ title, but the work was UX. Write "UX designer" for the owner and their peer, and "GUI designers" or "visual designers" for the two people who owned components and tokens. This also applies to the spec's DMS section, where "two UI designers" means the GUI/visual designers.
+
+**Resolving the modal / drawer / page conflict**
+- The owner said: "there were a lot of inconsistencies of how designers use modal, page, drawer … they are pretty resistant to changes and all have their own reasoning. I ended up building the guidelines and get alignment on every decision point … once this was agreed, it's hard for them to keep selling on their subjective ideas."
+- **Decision tree** (https://www.figma.com/design/FZTg7N8lsD83uimd7RdrfB/Patterns_Page-Guideline?node-id=8-475):
+  1. Requires user input or a decision to do the task?
+     - Yes, and the same content will be edited again or shown in a view mode → **drawer**.
+     - Yes, otherwise → **modal** (confirmation, warning).
+  2. No input needed, and a large amount of information?
+     - Often cross-checked against the original content, or belongs to a different function → **new tab**.
+     - Otherwise → **page**.
+  3. No, or unsure → often dive deep into details or take actions to complete the task?
+     - Yes → **page**.
+     - No, but often cross-checked against the primary content → **drawer** (less information) or **collapsible table** (tabular information).
+     - Neither → **page**.
+- **Key insight:** the owner turned a debate about preferences into agreement on criteria. Align on the questions first; the answers follow. This is the main moment for the case study.
+
+**Adoption (wording to use):** after each guideline was reviewed, designers fixed what didn't match in their products, alongside more urgent work. Adoption was ongoing but not tracked. Don't claim more than that.
+
+**Timing:** not important; many audit screenshots are mockups. Drop it.
+
+**BenQ change path for the system:** it existed (the "need big revamp?" branch in the release process, https://www.figma.com/design/dal2F03sF1fDpL9ZiFuKRX/DMS-3---UI-flow--draft---Copy-?node-id=2863-40820) but was documented less clearly than at Trend Micro. That is an honest growth point.
+
+**Owner's preference from now on:** ask only questions that matter for a strong case study or the deck outline. Detail questions come up while building slides together.

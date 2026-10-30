@@ -8,9 +8,11 @@ _Last updated: Oct 30, 2026_
 
 Order: (1) interview slide deck, which is the priority and must be thorough; (2) 1-page web version; (3) full case study.
 
-Mode: **mentor and discovery. Do not build slides until the owner asks.** Ask clarifying questions and help the owner pull the important points out of their experience.
+Mode: **discovery done; outlining.** Don't build slides until the owner asks. Ask only questions that matter for a strong case study or the outline. Detail questions come up while building slides together.
 
-Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audit and guideline files reviewed (notes section 9). Deck outline v1 exists but is on hold. Both collaboration practice docs reviewed (notes section 10). Open `[ASK]` items are in notes sections 9 and 10.
+**Terminology:** the owner was a UX designer at BenQ (the title said "UI designer"; never use it). The two people who owned components and tokens are "GUI designers" or "visual designers."
+
+Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audit and guideline files reviewed (notes section 9). Deck outline revised to v2 around the sharpened story (Oct 30). Both collaboration practice docs reviewed (notes section 10). Open `[ASK]` items are in notes sections 9 and 10.
 
 **Reminder for Claude:** while building the Trend Micro and synthesis slides, ask the owner for more detail on the identify → detect → analyze → recover mapping before using the robotics parallel.
 
@@ -25,6 +27,7 @@ Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audi
 | Oct 30, 2026 | Resume is the source of truth where it conflicts with the spec | Owner confirmed the resume claims |
 | Oct 30, 2026 | One combined BenQ + Trend Micro case study; deck first, then 1-page web, then full | Interview use is most urgent |
 | Oct 30, 2026 | Hold off on slides; work in mentor/discovery mode first | Owner wants to surface the strongest material before producing anything |
+| Oct 30, 2026 | Discovery done; stop detail questions and move to outlining | Owner will fill details while building slides |
 | Oct 30, 2026 | Redraw internal Figma artifacts in English for the deck rather than screenshot them | Files are internal and in Chinese; spec requirement 7 |
 
 ## Parked (resume later)
