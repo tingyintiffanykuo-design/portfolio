@@ -28,6 +28,7 @@ Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audi
 | Oct 30, 2026 | One combined BenQ + Trend Micro case study; deck first, then 1-page web, then full | Interview use is most urgent |
 | Oct 30, 2026 | Hold off on slides; work in mentor/discovery mode first | Owner wants to surface the strongest material before producing anything |
 | Oct 30, 2026 | Discovery done; stop detail questions and move to outlining | Owner will fill details while building slides |
+| Oct 30, 2026 | Build the deck in Figma Slides (when the owner asks); about 12-15 min of talking in a 1-hour, 2-3 case interview | Owner's interview format; priorities ranked in the deck outline |
 | Oct 30, 2026 | Redraw internal Figma artifacts in English for the deck rather than screenshot them | Files are internal and in Chinese; spec requirement 7 |
 
 ## Parked (resume later)

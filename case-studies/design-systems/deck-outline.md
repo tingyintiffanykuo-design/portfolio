@@ -4,6 +4,38 @@ _Oct 30, 2026. Interview presentation for Amazon Robotics Sr. Product Designer. 
 
 `[NEED]` = a detail to fill in while building slides. `[REDRAW]` = an internal artifact to rebuild in English and generically.
 
+## Interview format and priorities (Oct 30, 2026)
+
+**Format:** 1 hour, with 2-3 in-depth case studies → about **12-15 minutes of talking** for this one, plus questions. Built in **Figma Slides**, but only when the owner asks. Slide count doesn't matter; time on each idea does.
+
+**What matters most, ranked:**
+
+| Rank | Content | Time | Why it earns the time |
+|---|---|---|---|
+| 1 | **The modal / drawer / page standoff → decision tree → one real case run through it** (slides 15-16) | ~4-5 min | Influence without authority, rules over pixels, systems thinking. The moment interviewers will remember and dig into. |
+| 2 | **Trend Micro governance: create and apply flows, exception path, build review** (slide 17) | ~2-3 min | Direct match to "scalable mechanisms and reusable patterns that multiply team impact." Few candidates can show this. |
+| 3 | **BenQ, compressed:** context, who owned what, one rule's anatomy, the review and release process with engineering and QA (slides 4-6, 8, 9) | ~3-4 min | Scale (5 platforms, still in use), engineering partnership, honest credit. Sets up the growth arc. |
+| 4 | **Close: how I'd build the next one, tied to multiple robotics programs** (slides 20-21) | ~1-2 min | Ends on a point of view and connects to the role. |
+| 5 | **Opening frame: the problem plus at a glance** (slides 2-3) | ~1-1.5 min | Tells the listener what to watch for. |
+
+**Shrink or merge:**
+- Audit and three-layer model (slides 12-13): one slide, ~1 min.
+- Context slides: one line each.
+- Outcome and limits: a sentence each, said out loud.
+
+**Move to the appendix:**
+- Component inventory and rule-area list (slide 7)
+- The 11-guideline grid
+- Audit comparisons
+- Full flow diagrams
+
+**Questions to prepare for** (answers, not slides):
+1. "What exactly was yours vs. the team's?"
+2. "How did you handle pushback?" (the standoff)
+3. "How do you know it worked?" Weakest point; answer honestly and specifically.
+4. "What would you do differently?"
+5. "How would this apply to robotics?"
+
 ## The story in one line (working; owner to put in their own words)
 
 > Consistency at scale is a people problem before it's a pixel problem. I build the shared rules and the process that keeps them alive.
