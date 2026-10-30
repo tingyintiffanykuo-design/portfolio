@@ -10,7 +10,7 @@ Order: (1) interview slide deck, which is the priority and must be thorough; (2)
 
 Mode: **mentor and discovery. Do not build slides until the owner asks.** Ask clarifying questions and help the owner pull the important points out of their experience.
 
-Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audit and guideline files reviewed (notes section 9). Deck outline v1 exists but is on hold. Open `[ASK]` items are in notes section 9.
+Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audit and guideline files reviewed (notes section 9). Deck outline v1 exists but is on hold. Both collaboration practice docs reviewed (notes section 10). Open `[ASK]` items are in notes sections 9 and 10.
 
 **Reminder for Claude:** while building the Trend Micro and synthesis slides, ask the owner for more detail on the identify → detect → analyze → recover mapping before using the robotics parallel.
 
@@ -36,5 +36,7 @@ Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audi
 - **Screenshots** of the DMS page images and GIFs: the owner will add them later. Ask when the visual review is needed.
 
 ## Notes
+
+- **Resume fix (owner):** the Trend Micro line should say 3 platforms, not 4. Also consider "5 pattern and 6 page guidelines" instead of "11 reusable UI patterns."
 
 - Resume (`Resume_Amazon Robotics_Product Designer_Tiffany Kuo.pdf`) lists experience the spec doesn't cover: Tactile (UX Designer, Apr 2026 to present; this appears to be the Robot HMI project) and Fluke (UX Research Intern, 2025). The spec says "about 3 years"; the resume says "4+". Reconcile in the spec when convenient.

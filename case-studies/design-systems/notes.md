@@ -165,3 +165,50 @@ See `PROGRESS.md` for the current list of questions.
 - **The robotics bridge needs new footing.** The patterns are organized by layer, not by the identify/detect/analyze/recover workflow. The resume phrase describes product scope. Better candidates:
   - the decision-rule approach
   - the Anomaly Events → Rule Management flow
+
+## 10. Collaboration practice docs and more answers (Oct 30, 2026)
+
+**Owner's answers**
+1. The owner reviewed the guidelines with the designers of every product, using public systems as supporting evidence during those talks. ("Did anything change your view?" is deferred until slide building.)
+2. **Hardest call: modal / drawer / page.** Each designer's existing designs differed, and they resisted change. The owner argued from the guideline's point of view, pointed out inconsistencies, and asked for clear reasoning behind each design.
+3. Trend Micro collaboration practice (FigJam): https://www.figma.com/board/Knt2ai6QGEWngPHp4CnU2i/Patterns-Guideline_Collaboration-Practice?node-id=0-1
+4. Adoption: "I think they did apply the patterns and used the page I created." `[ASK]` Is there a concrete instance?
+5. **Correction:** there were **3 platforms** (xNexus, xZETA, SUMO), not 4. A mobile app existed but didn't use these guidelines. The owner will fix the resume.
+6. **Origin: both.** As a new designer, the owner saw many inconsistencies in design reviews and started the audit; the manager had wanted this initiative for a while.
+7. The "TBD" and "to be iterated" items were still open when the owner left. The Figma file is the latest version.
+
+**BenQ: "Design review & document release process"** (owner-built; https://www.figma.com/design/dal2F03sF1fDpL9ZiFuKRX/DMS-3---UI-flow--draft---Copy-?node-id=2863-40957)
+- **Flow:** initial draft → RD/GUI/PM comment → "UI" replies and revises → RD/GUI/PM resolve the thread → finalize → UI notifies "done revising" → big revamp needed? Yes: release an updated version. No: go back into the loop.
+- **Comment protocol,** with comments tagged by UI-flow version `[vX]`:
+  1. New feature or design: UI adds the definition; RD reacts with an emoji to confirm it can be built, then resolves.
+  2. Additions or changes to a definition: RD/GUI/PM comment; UI revises and replies with the new version plus "update"; the commenter resolves.
+  3. Pure questions: no version tag; UI replies and the asker resolves.
+- Revised areas are color-marked so **QA can see what changed in each release**, and changes are logged in the version history.
+- `[ASK]` Is "UI" the UX/flow designers (the owner's role)?
+
+**Trend Micro: "Patterns Guideline: Collaboration Practice"** (FigJam, owner-built). Two linked processes:
+- **A. Creating a pattern or page guideline:**
+  1. Identify a common pattern or page.
+  2. Collect the relevant designs from current products. The person in charge is each product's designer, and the pattern creator can also run a quick audit.
+  3. Identify problems (inconsistency or usability).
+  4. Necessary to fix?
+     - Yes: point out the problem and propose a solution → design review (loop until it passes) → document wireframe, spec, and interaction → visual designer adds a visual spec if needed.
+     - No: copy the existing design into the guideline.
+  5. Release the new pattern, then apply it everywhere the pattern occurs. Process A then feeds into B.
+- **B. Applying the guideline when designing:**
+  1. New feature or page → is there an existing pattern or page guideline?
+  2. If there is one and it applies, follow it.
+  3. If it doesn't apply: propose an adjustment → design review → does it apply to all products?
+     - Yes: document it in the guideline.
+     - No: adjust only in the product file and note it in the guideline.
+  4. If no guideline exists: is this likely to be a common page? Yes: design it and create a new guideline. No: design and document it in the product file only.
+  5. Every path ends in a **build review** ("ensure front-end developers implement the design correctly") → successful? If not, identify the problem (technical limitation or design issue) and loop back.
+
+**Mentor read**
+- **A third thread across both jobs:** the owner builds the process that keeps a system alive, not just the system.
+  - BenQ: handoff and release hygiene between UX, GUI, engineering, PM, and QA.
+  - Trend Micro: governance of the pattern library itself, with a contribution path, an exception path, and a feedback loop from build review back into the guideline.
+- This maps directly to the JD: "scalable mechanisms," "standard work, playbooks," "elevate UX maturity."
+- **The resistance story** (modal / drawer / page, as a new designer with no authority) is the most interview-worthy moment. It needs one specific scene.
+- **The audit's screenshot dates** (Dec 20, 2023 to Jan 3, 2024) suggest it started about 6 weeks after joining (Nov 2023). `[ASK]` Confirm.
+- **Resume wording to fix:** "11 reusable UI patterns across 4 software platforms" → 3 platforms. The 11 are really 5 pattern guidelines plus 6 page guidelines.
