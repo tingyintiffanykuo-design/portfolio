@@ -53,6 +53,74 @@ This shows growth, puts the focus on systems thinking over visuals (matching spe
 6. What I learned / how I'd build the next one
 7. Limits: evidence available, what was redrawn
 
-## 6. Open questions for the owner
+## 6. Owner's answers (Oct 30, 2026)
 
-See the Oct 28 conversation; answers get recorded here.
+**Rule:** where the resume and the spec disagree, the resume is correct.
+
+**Format and order:** (1) an interview slide deck, thorough and ready to present, which is the priority; (2) a 1-page version for the website; (3) later, a full case study. One combined case study covering both companies.
+
+**BenQ**
+- **Platforms:** 5 web-only platforms in the education software suite: DMS, AMS, IAM, X-Sign Broadcast, X-Sign Signage (https://www.benq.com/en-us/education/software.html; Claude couldn't fetch this page from the cloud session).
+- **Ownership:**
+  - GUI designers owned the components and tokens; the owner reviewed them and gave UX advice.
+  - The owner and one other UX designer designed the bare-bones wireframes and wrote the usage guidelines and documentation. They split the components between them.
+  - **The owner defined the general rules** (cross-platform interaction rules).
+  - Engineers built the coded component library.
+- **Process:**
+  - The system was built for the first time while designing DMS, one of the 5 platforms.
+  - Components likely to be reused were pulled out of the DMS work.
+  - Common patterns (search, navigation, error messages, etc.) were discussed and their interactions defined.
+  - Each pattern was checked with engineers for feasibility and judged on whether it would scale to the other platforms.
+- **Triggers:**
+  - (a) Scaling the education business required better design efficiency and documentation.
+  - (b) Customers complained about inconsistency across platforms.
+  - (c) The products looked unrelated, which was bad for the brand.
+- **Adoption:** adopted and still in use today. The owner doesn't remember specific feedback (about 4 years ago).
+- **Artifacts (BenQ internal Figma, in Chinese):**
+  - General guidelines: https://www.figma.com/design/dal2F03sF1fDpL9ZiFuKRX/DMS-3---UI-flow--draft---Copy-?node-id=101-12
+  - Components: https://www.figma.com/design/6j2D7XvRMI4osaVycRkSYt/BenQ-Design-System-%E5%82%99%E4%BB%BD?node-id=204-6569
+
+### What the Figma files contain (read by Claude, Oct 30)
+
+**General rules page:** an index plus 7 rule areas:
+1. Navigation
+2. Header (an old and a new version exist)
+3. Search / Filter / Sorting (each with dialog, criteria, and result states)
+4. Dialog. Four documented cases:
+   - Select devices
+   - Co-editing conflict / edit restriction (site-wide)
+   - Check properties (and check initial properties)
+   - Policy apply & confirm
+5. Error page
+6. Scroll area
+7. Onboarding (an old version kept and marked "don't look," plus a newer "simplified onboarding")
+
+**Guideline format** (seen in 4.2, co-editing conflict):
+- Purpose statement: when the dialog appears and why (duplicate data, data no longer exists, access restriction)
+- Link to the design-system component (`q-dialog`)
+- Annotated example
+- Numbered behavior for each CTA (e.g. "Close → go back one level, refresh, return to the latest state")
+
+This works well on a slide: it shows that guidelines spell out behavior and states, not just visuals.
+
+**Component library ("clean-up components" page):** 29 components with a `q-` prefix:
+- Navigation and structure: breadcrumb, tab, pagination, page-description, tree-view
+- Inputs: text-field, text-area, dropdown, search, filter, slider, date-picker, time-picker, add-button
+- Data display: card-list, card-title, list, data-table, settings-list, sub-settings-items, tags, badge, avatar
+- Feedback: tooltips, toast, alert, dialog, progress-indicator
+
+Designer notes left on the canvas show the library was being cleaned up and consolidated:
+- "Actually only A is in use right now" (next to toast)
+- "Merge with dropdown" (next to alert)
+
+**Evidence of iteration worth asking about:** the old vs. new header, and the old vs. simplified onboarding.
+
+**Confidentiality:** these files are BenQ internal and in Chinese. For the deck, redraw them in English and generically. Don't paste raw screenshots unless permission is confirmed.
+
+## 7. Reminders for Claude
+
+- **Bridge to robotics:** when building the Trend Micro and synthesis slides, ask the owner for more detail on how the patterns map to identify, detect, analyze, recover. Then decide whether the parallel to the JD's alert → locate → repair → confirm arc holds. Present it as a parallel, not as robotics experience.
+
+## 8. Still open
+
+See `PROGRESS.md` for the current list of questions.

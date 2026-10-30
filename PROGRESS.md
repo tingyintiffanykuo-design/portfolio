@@ -1,12 +1,16 @@
 # Progress
 
-_Last updated: Oct 28, 2026_
+_Last updated: Oct 30, 2026_
 
 ## Current focus
 
-**Design systems case study** (BenQ + Trend Micro), for the Amazon Robotics Sr. Product Designer application (`jobs/amazon-robotics-sr-product-designer.md`). Working notes: `case-studies/design-systems/notes.md`.
+**Design systems case study** (BenQ + Trend Micro), for the Amazon Robotics Sr. Product Designer application (`jobs/amazon-robotics-sr-product-designer.md`). Working notes: `case-studies/design-systems/notes.md`. Deck outline: `case-studies/design-systems/deck-outline.md`.
 
-Status: waiting on the owner's answers to the questions in the notes file.
+Order: (1) interview slide deck, which is the priority and must be thorough; (2) 1-page web version; (3) full case study.
+
+Status: BenQ facts collected and the BenQ Figma files reviewed. Deck outline v1 drafted. Waiting on: Trend Micro answers, deck tool and format, and the `[NEED]` items in the outline.
+
+**Reminder for Claude:** while building the Trend Micro and synthesis slides, ask the owner for more detail on the identify → detect → analyze → recover mapping before using the robotics parallel.
 
 ## Decision log
 
@@ -16,6 +20,9 @@ Status: waiting on the owner's answers to the questions in the notes file.
 | Oct 28, 2026 | This repo holds progress and decisions, not just the spec | Owner works across devices and needs the context to travel |
 | Oct 28, 2026 | Drafting split: owner writes narrative; Claude drafts factual blocks and gives structure and line edits | Keeps the core writing in the owner's voice (spec requirement 9) |
 | Oct 28, 2026 | Pause the DMS rewrite; prioritize a design systems case study | Amazon Robotics JD asks for "scalable mechanisms and reusable design patterns"; more urgent than DMS |
+| Oct 30, 2026 | Resume is the source of truth where it conflicts with the spec | Owner confirmed the resume claims |
+| Oct 30, 2026 | One combined BenQ + Trend Micro case study; deck first, then 1-page web, then full | Interview use is most urgent |
+| Oct 30, 2026 | Redraw internal Figma artifacts in English for the deck rather than screenshot them | Files are internal and in Chinese; spec requirement 7 |
 
 ## Parked (resume later)
 
