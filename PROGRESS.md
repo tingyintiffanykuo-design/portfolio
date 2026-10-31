@@ -35,10 +35,11 @@ Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audi
 | Oct 30, 2026 | Build the deck in Figma Slides (when the owner asks); about 12-15 min of talking in a 1-hour, 2-3 case interview | Owner's interview format; priorities ranked in the deck outline |
 | Oct 31, 2026 | Deck order: Opening → Trend Micro → BenQ → Synthesis | Owner's choice: lead with the strongest material |
 | Oct 31, 2026 | Keep outline v2 as is; do the wording in a separate `deck-rewrite.md` | Owner request |
-| Oct 31, 2026 | Trend Micro governance flow: likely screenshot with highlights instead of a redraw (owner's call) | English, process-only content; the issue is legibility, not confidentiality |
 | Oct 30, 2026 | Redraw internal Figma artifacts in English for the deck rather than screenshot them | Files are internal and in Chinese; spec requirement 7 |
 
 ## Parked (resume later)
+
+- **Governance flow visual (not decided):** Claude recommends a screenshot with highlights over a redraw (English, process-only; the issue is legibility). Owner to decide. Details at the end of `deck-rewrite.md`.
 
 - **Interview lineup (not final):** for the Amazon Robotics 1-hour interview, the other case studies will likely be **Robot HMI and DMS**, alongside this design systems case. Other interviews may use a different set of projects, framed differently for each role. Claude's suggestions, which the owner liked; bring them up after the deck is built: (a) if DMS is presented in the same hour, keep the BenQ part of this deck short so it doesn't repeat DMS; (b) the parked DMS rewrite may then become urgent too.
 
