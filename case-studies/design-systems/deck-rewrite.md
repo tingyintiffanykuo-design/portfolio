@@ -152,13 +152,169 @@ The first half is merged into slide 6 (step 6). The second half, "one thing that
 
 ---
 
-## Part 2: BenQ
+## Part 2: BenQ (owner's draft Oct 31; v2 slides 4-10 → 13-19)
 
-_Owner is writing this section._
+### 13. Context (was 4)
+
+**Your draft:**
+- The 5 platforms were built at different times by different designers. The design language was loosely shared but not consistent.
+- Figma "didn't even have the feature components" then, so each product iterated on its own line instead of sharing components.
+- The team wasn't used to sharing a library or aligning on patterns the way a product suite should.
+- "All built with the same system" is misleading.
+- Challenges: (1) inconsistent UX across apps that may have the same users; (2) a fragmented design workflow across products; (3) no streamlined workflow between designers and engineers, which slowed iteration.
+
+**Suggested:**
+> **5 web platforms for K-12 IT, built at different times by different designers.**
+> DMS · AMS · IAM · X-Sign Broadcast · X-Sign Signage
+>
+> Each product had evolved on its own. The design language was loosely shared, components weren't, and the team wasn't in the habit of aligning on patterns across the suite.
+>
+> **Three challenges:**
+> 1. **Same users, different experiences:** an IT admin using several of these apps had to relearn each one.
+> 2. **Every product designed on its own:** no shared components or patterns between product teams.
+> 3. **Slow handoff to engineering:** no shared workflow between designers and engineers, so every iteration took longer.
+
+**Why:**
+- **Correction, which matters:** Figma had components and shared team libraries well before 2020, so "Figma didn't have components" could be challenged by an interviewer who knows Figma's history. What was really missing was the *team's practice* of sharing them. "Components weren't shared" and "the team wasn't in the habit" say the true thing and can't be disputed. The same applies to slide 15.
+- Your draft said "two challenges" but listed three. All three are worth keeping.
+- **Challenge 3 sets up slide 18.** The review and release process is your answer to it. Say this out loud when you reach slide 18 so the listener connects problem and solution.
+- I dropped "all built with the same system," as you asked.
+- **Overlap check with slide 3:** slide 3 is the general problem; this slide is BenQ's specific version. Keep it concrete here (who the users are, what was split) so it doesn't sound like a repeat.
+
+### 14. Build the system while building the product (was 5)
+
+**Your draft:** "Can engineering build it?" needs more context. Engineers didn't build components from scratch; they built on the open-source framework Vuetify. That brought many technical limits, and bigger customizations needed strong justification.
+
+**Suggested** (the loop from v2, with the engineering step made specific):
+> 1. Design DMS.
+> 2. Spot pieces that will repeat.
+> 3. Generalize them into components and rules.
+> 4. Check two filters:
+>    - **Can we build it on Vuetify?** Our engineers built on this open-source framework, so we customized only when the user benefit was worth defending.
+>    - **Does it fit the other 4 platforms?**
+> 5. Document it.
+
+**Why:**
+- "Customize only when it's worth defending" turns a constraint into judgment. That's what senior roles screen for: designing within real technical limits instead of handing engineers a wishlist. It's also directly relevant to robotics, where hardware and software limits are everywhere.
+- `[OPTIONAL, fill in while building]` One example of a customization you fought for, or one you dropped because it wasn't worth it, would make this slide memorable. If none comes to mind, the slide still works without it.
+
+### 15. Who owned what (was 6, shortened)
+
+**Your draft:**
+- You worked on the general rules, including the usage guidelines for those patterns.
+- You split the component building with another UX designer.
+- Back then the GUI designers were just starting to build components, so the UX designers had to make the lo-fi versions first for them to base the visuals on.
+- Keep this short and save the details for follow-up questions.
+
+**Suggested:**
+> - **Me:** general rules, including how each pattern should be used.
+> - **Me + 1 UX designer:** lo-fi component structure, split between us, as the base for visual design.
+> - **GUI designers (2):** visual design of components and tokens.
+> - **Engineers:** the coded library, built on Vuetify.
+
+**Why:**
+- One line per role takes about 10 seconds to say and answers "what was yours?" before anyone asks. Keeping the details for Q&A is the right call.
+- **"Component UI building" → "lo-fi component structure."** It avoids the word "UI" (your terminology rule) and makes it clear that your part was the structure the visuals were built on. That's the same "backbone" claim as your DMS case, which keeps your story consistent.
+- I dropped the Figma-history line here for the reason given on slide 13. If someone asks why the UX designers went first, the answer is simple: the visuals needed a structure to start from.
+
+### 16. What's in it (was 7)
+
+**Your question:** what's my suggestion for redrawing the inventory map?
+
+**Suggested:** one slide, two rows, no product visuals:
+> **Row 1: 7 general rules:** Navigation · Header · Search / Filter / Sort · Dialog · Error page · Scroll · Onboarding
+> **Row 2: 29 components in 4 families:**
+> - **Navigation and structure:** breadcrumb, tab, pagination, page description, tree view
+> - **Inputs:** text field, text area, dropdown, search, filter, slider, date and time pickers, add button
+> - **Data display:** card list, card title, list, data table, settings list, sub-settings, tags, badge, avatar
+> - **Feedback:** tooltip, toast, alert, dialog, progress indicator
+>
+> Shown as simple grey boxes with English labels, grouped by family.
+
+**Why:**
+- The slide's job is to show the breadth in 5 seconds, not to be walked through. Grouping into families shows the system was organized, not just a pile of components.
+- **Grey boxes and English labels avoid two problems:** the confidentiality of real BenQ screens, and Chinese labels the interviewer can't read.
+- **Showing rules and components together** mirrors your Trend Micro layer model (patterns above components). The listener sees the same way of thinking at both companies without you having to say it.
+- **Option:** given your time budget, this could be a 10-second glance slide or move to the appendix. Decide once the deck is built and you can time it.
+
+### 17. Anatomy of a rule (was 8)
+
+**Your draft:** show two examples, one component guideline (toast) and one general rule (search / filter / sorting). Do this as a separate task after the deck is built.
+
+**Suggested headline:**
+> Rules defined behavior, not just looks: one component, one pattern.
+
+**Why:**
+- Two examples at two levels (a component and a pattern) show you work across layers, which again echoes Trend Micro.
+- I've parked the details of the two examples as a task for after the deck is built, as you asked.
+
+### 18. The process that kept it alive (was 9)
+
+**Your draft:** keep the original diagram to keep it real, and maybe annotate it in English. Or should you translate the whole thing?
+
+**Suggested:** keep the original. Put English labels over the box titles, which are short. Leave the detailed Chinese notes as they are, and add 3 English callouts for what matters:
+> 1. **Version tags on every comment:** everyone knew which spec version a comment was about.
+> 2. **Engineers confirm feasibility before a thread closes:** no surprises at build time.
+> 3. **Changed areas color-marked for QA:** testers saw exactly what changed in each release.
+>
+> Headline idea: *Fixing the handoff: one review and release process for UX, GUI, engineering, PM, and QA.*
+
+**Why the middle option (original + English box labels + callouts):**
+- **Keeping the original:** you're right that a real artifact is more convincing than a clean redraw, and the Chinese shows real context (a Taiwan-based team).
+- **But don't rely on annotations alone.** If the interviewer can't read any box, the diagram is just a shape and all the meaning sits in the callouts. Overlaying the short box titles (about 8 labels) is cheap and makes the flow itself readable.
+- **Translating everything** costs much more and turns it into a redraw, which loses the authenticity you want. The detailed notes don't need to be read; the callouts carry them.
+- The 3 callouts are the payoff for challenge 3 on slide 13 (slow handoff to engineering). The headline says so.
+- `[CHECK]` It's an internal BenQ file. It's a process diagram, not product screens, so the risk is low, but confirm you're comfortable showing it.
+
+### 19. Outcome: a larger scale with more people to align (was 10)
+
+**Your draft:** frame BenQ as a larger-scale project with a lot more stakeholders to navigate.
+
+**Suggested:**
+> **Bigger scale, more people to align.**
+> - 5 platforms, 4 cross-functional teams
+> - On DMS alone: 2 UX designers, 2 GUI designers, 1 PM, 13 engineers, plus QA
+>
+> **Outcome:** adopted across the platforms and still in use today.
+
+**Why:**
+- Numbers make "a lot of stakeholders" concrete. All of these are facts you've already confirmed (the resume says 5 platforms and 4 cross-functional teams; the DMS page lists the feature team).
+- It also completes the contrast with Trend Micro: there you worked alone with designers across 3 products, and here with every function across 5. That sets up the synthesis slide.
+- "Still in use today" is your strongest outcome claim at either company. Give it its own line.
+
+---
 
 ## Synthesis
 
-_Owner is writing this section._
+### 20. Two starting points (was 19)
+
+**Your draft:**
+- **Title idea:** BenQ is more of a top-down process, since there was no existing library and auditing wasn't worth the time. Trend Micro is more of a bottom-up process, with an established library you wanted to branch out from.
+- They had different challenges, and you want to show you can work either way.
+- You'll fill in the content after both parts are built.
+
+**Suggested title options:**
+> A. *Two starting points: define from zero, or audit what exists*
+> B. *Top-down at BenQ, bottom-up at Trend Micro*: your original framing, with a subtitle that explains it.
+
+**Why I'd lean toward A:**
+- "Top-down" and "bottom-up" mean different things to different people. At BenQ you pulled components *out of* DMS as you designed, which some interviewers would call bottom-up. That could turn into a debate over terminology instead of a point about your range.
+- Option A says the same thing in plain words, and the contrast is easy to follow: no library vs. an established one; define first vs. audit first.
+- **If you prefer B,** it works with a one-line subtitle, e.g. "BenQ: no library yet, so we defined rules first. Trend Micro: an established library, so I audited first."
+- **Either way, the message is the one you named:** you can build a system from zero or grow one from what exists. That's a strong closing point.
+- Order the comparison Trend Micro → BenQ to match the deck.
+
+### 21-22. Robotics parallel and how I'd build the next one (was 20-21)
+
+_The owner will think about these after the deck is built._
+
+### Limits (was 22)
+
+Skipped (owner's decision).
+
+### 23. Thank you / questions
+
+Kept.
 
 ---
 

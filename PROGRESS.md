@@ -8,7 +8,7 @@ _Last updated: Oct 31, 2026_
 
 Order: (1) interview slide deck, which is the priority and must be thorough; (2) 1-page web version; (3) full case study.
 
-Mode: **rewriting slide by slide in the owner's words; Claude suggests wording with rationale.** Opening + Trend Micro done (Oct 31); owner is writing BenQ and Synthesis. Don't build slides until the owner asks. Ask only questions that matter for a strong case study or the outline. Detail questions come up while building slides together.
+Mode: **rewriting slide by slide in the owner's words; Claude suggests wording with rationale.** Opening, Trend Micro, BenQ, and synthesis slide 20 suggestions done (Oct 31). The owner is reviewing the suggestions. Don't build slides until the owner asks. Ask only questions that matter for a strong case study or the outline. Detail questions come up while building slides together.
 
 **Terminology:** the owner was a UX designer at BenQ (the title said "UI designer"; never use it). The two people who owned components and tokens are "GUI designers" or "visual designers."
 
@@ -35,9 +35,14 @@ Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audi
 | Oct 30, 2026 | Build the deck in Figma Slides (when the owner asks); about 12-15 min of talking in a 1-hour, 2-3 case interview | Owner's interview format; priorities ranked in the deck outline |
 | Oct 31, 2026 | Deck order: Opening → Trend Micro → BenQ → Synthesis | Owner's choice: lead with the strongest material |
 | Oct 31, 2026 | Keep outline v2 as is; do the wording in a separate `deck-rewrite.md` | Owner request |
+| Oct 31, 2026 | Skip the limits slide; keep the thank-you slide; write slides 21-22 (robotics parallel, how I'd build the next one) after the deck is built | Owner's choice |
+| Oct 31, 2026 | BenQ framed as the larger-scale project with more stakeholders; the synthesis contrasts the two starting points | Owner's framing; title wording still open (A vs. B in `deck-rewrite.md`) |
 | Oct 30, 2026 | Redraw internal Figma artifacts in English for the deck rather than screenshot them | Files are internal and in Chinese; spec requirement 7 |
 
 ## Parked (resume later)
+
+- **After the deck is built:** do slide 17 (anatomy of a rule) as a separate task, with two examples: the toast component guideline and the search / filter / sorting general rule.
+- **BenQ process diagram (slide 18):** Claude suggests keeping the original, overlaying English box labels, and adding 3 callouts. Owner to decide.
 
 - **Governance flow visual (not decided):** Claude recommends a screenshot with highlights over a redraw (English, process-only; the issue is legibility). Owner to decide. Details at the end of `deck-rewrite.md`.
 
