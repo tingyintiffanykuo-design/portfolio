@@ -14,7 +14,9 @@ Mode: **discovery done; outlining.** Don't build slides until the owner asks. As
 
 Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audit and guideline files reviewed (notes section 9). Deck outline revised to v2 around the sharpened story (Oct 30). Both collaboration practice docs reviewed (notes section 10). Open `[ASK]` items are in notes sections 9 and 10.
 
-**Reminder for Claude: after the deck is built,** remind the owner of "Questions to prepare for" in `deck-outline.md` (5 questions to rehearse spoken answers to).
+**Reminders for Claude, after the deck is built:**
+1. "Questions to prepare for" in `deck-outline.md`: 5 questions to rehearse spoken answers to.
+2. The two interview-lineup suggestions under "Parked": keep the BenQ part short if DMS is presented in the same hour; the DMS rewrite may become urgent. The owner agreed both are good.
 
 **Reminder for Claude:** while building the Trend Micro and synthesis slides, ask the owner for more detail on the identify → detect → analyze → recover mapping before using the robotics parallel.
 
@@ -35,7 +37,7 @@ Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audi
 
 ## Parked (resume later)
 
-- **Interview lineup (not final):** for the Amazon Robotics 1-hour interview, the other case studies will likely be **Robot HMI and DMS**, alongside this design systems case. Other interviews may use a different set of projects, framed differently for each role. Claude's suggestions, not yet decided by the owner: (a) if DMS is presented in the same hour, keep the BenQ part of this deck short so it doesn't repeat DMS; (b) the parked DMS rewrite may then become urgent too.
+- **Interview lineup (not final):** for the Amazon Robotics 1-hour interview, the other case studies will likely be **Robot HMI and DMS**, alongside this design systems case. Other interviews may use a different set of projects, framed differently for each role. Claude's suggestions, which the owner liked; bring them up after the deck is built: (a) if DMS is presented in the same hour, keep the BenQ part of this deck short so it doesn't repeat DMS; (b) the parked DMS rewrite may then become urgent too.
 
 - **DMS case study**: open questions 1-10 in the Oct 28 conversation, which mirror spec section 11, questions 1-9. Next step after answers: Priority 1 package (spec 8.3).
 - **Subtitle**: proposed dropping "lab teams" from candidate 1 ("Software that robot engineers and security analysts rely on, shaped by how they actually work."). Not yet confirmed.

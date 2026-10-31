@@ -9,6 +9,13 @@ Tracks the progress and decisions behind updating the portfolio at https://tiffa
 3. `case-studies/<name>/`: one folder per case study, holding notes, open questions, and drafts.
 4. `jobs/`: job descriptions being targeted, saved as source text.
 
+## How Claude works with the owner
+
+- **One step at a time.** Guide the owner step by step instead of giving everything at once. The owner can focus on one thing at a time.
+- **Only what matters now.** Each response covers only what's relevant to the current step. Example: while building slides, hold anything about defending or answering in the interview until later.
+- **Exception:** raise anything that changes the framing of the current work early (e.g. which other case studies share the interview), because it shapes what's being built.
+- Park later-stage items in `PROGRESS.md` as reminders, and bring them up when their step comes.
+
 ## Working rules
 
 - Never invent metrics, outcomes, or roles (spec section 7).
