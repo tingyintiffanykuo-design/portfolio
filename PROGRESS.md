@@ -4,11 +4,11 @@ _Last updated: Oct 31, 2026_
 
 ## Current focus
 
-**Design systems case study** (BenQ + Trend Micro), for the Amazon Robotics Sr. Product Designer application (`jobs/amazon-robotics-sr-product-designer.md`). Working notes: `case-studies/design-systems/notes.md`. Deck outline: `case-studies/design-systems/deck-outline.md`.
+**Design systems case study** (BenQ + Trend Micro), for the Amazon Robotics Sr. Product Designer application (`jobs/amazon-robotics-sr-product-designer.md`). Working notes: `case-studies/design-systems/notes.md`. Deck outline (v2, kept as reference): `case-studies/design-systems/deck-outline.md`. **Working rewrite:** `case-studies/design-systems/deck-rewrite.md`.
 
 Order: (1) interview slide deck, which is the priority and must be thorough; (2) 1-page web version; (3) full case study.
 
-Mode: **discovery done; outlining.** Don't build slides until the owner asks. Ask only questions that matter for a strong case study or the outline. Detail questions come up while building slides together.
+Mode: **rewriting slide by slide in the owner's words; Claude suggests wording with rationale.** Opening + Trend Micro done (Oct 31); owner is writing BenQ and Synthesis. Don't build slides until the owner asks. Ask only questions that matter for a strong case study or the outline. Detail questions come up while building slides together.
 
 **Terminology:** the owner was a UX designer at BenQ (the title said "UI designer"; never use it). The two people who owned components and tokens are "GUI designers" or "visual designers."
 
@@ -33,6 +33,9 @@ Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audi
 | Oct 30, 2026 | Hold off on slides; work in mentor/discovery mode first | Owner wants to surface the strongest material before producing anything |
 | Oct 30, 2026 | Discovery done; stop detail questions and move to outlining | Owner will fill details while building slides |
 | Oct 30, 2026 | Build the deck in Figma Slides (when the owner asks); about 12-15 min of talking in a 1-hour, 2-3 case interview | Owner's interview format; priorities ranked in the deck outline |
+| Oct 31, 2026 | Deck order: Opening → Trend Micro → BenQ → Synthesis | Owner's choice: lead with the strongest material |
+| Oct 31, 2026 | Keep outline v2 as is; do the wording in a separate `deck-rewrite.md` | Owner request |
+| Oct 31, 2026 | Trend Micro governance flow: likely screenshot with highlights instead of a redraw (owner's call) | English, process-only content; the issue is legibility, not confidentiality |
 | Oct 30, 2026 | Redraw internal Figma artifacts in English for the deck rather than screenshot them | Files are internal and in Chinese; spec requirement 7 |
 
 ## Parked (resume later)
