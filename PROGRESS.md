@@ -31,12 +31,11 @@ Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audi
 | Oct 30, 2026 | Hold off on slides; work in mentor/discovery mode first | Owner wants to surface the strongest material before producing anything |
 | Oct 30, 2026 | Discovery done; stop detail questions and move to outlining | Owner will fill details while building slides |
 | Oct 30, 2026 | Build the deck in Figma Slides (when the owner asks); about 12-15 min of talking in a 1-hour, 2-3 case interview | Owner's interview format; priorities ranked in the deck outline |
-| Oct 31, 2026 | Build the deck in modules: core (Trend Micro standoff + governance), BenQ module, and a closing bridge swapped per job | The case-study lineup and framing vary by interview; for Amazon Robotics it's likely Robot HMI + DMS + this one |
 | Oct 30, 2026 | Redraw internal Figma artifacts in English for the deck rather than screenshot them | Files are internal and in Chinese; spec requirement 7 |
 
 ## Parked (resume later)
 
-- **Lineup for the Amazon Robotics interview:** likely Robot HMI + DMS + design systems (not final). If DMS is in it, (a) the BenQ part of this deck should be short and refer back to DMS rather than repeat it, and (b) the parked DMS rewrite becomes urgent too.
+- **Interview lineup (not final):** for the Amazon Robotics 1-hour interview, the other case studies will likely be **Robot HMI and DMS**, alongside this design systems case. Other interviews may use a different set of projects, framed differently for each role. Claude's suggestions, not yet decided by the owner: (a) if DMS is presented in the same hour, keep the BenQ part of this deck short so it doesn't repeat DMS; (b) the parked DMS rewrite may then become urgent too.
 
 - **DMS case study**: open questions 1-10 in the Oct 28 conversation, which mirror spec section 11, questions 1-9. Next step after answers: Priority 1 package (spec 8.3).
 - **Subtitle**: proposed dropping "lab teams" from candidate 1 ("Software that robot engineers and security analysts rely on, shaped by how they actually work."). Not yet confirmed.
