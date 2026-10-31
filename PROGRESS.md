@@ -1,6 +1,6 @@
 # Progress
 
-_Last updated: Oct 30, 2026_
+_Last updated: Oct 31, 2026_
 
 ## Current focus
 
@@ -13,6 +13,8 @@ Mode: **discovery done; outlining.** Don't build slides until the owner asks. As
 **Terminology:** the owner was a UX designer at BenQ (the title said "UI designer"; never use it). The two people who owned components and tokens are "GUI designers" or "visual designers."
 
 Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audit and guideline files reviewed (notes section 9). Deck outline revised to v2 around the sharpened story (Oct 30). Both collaboration practice docs reviewed (notes section 10). Open `[ASK]` items are in notes sections 9 and 10.
+
+**Reminder for Claude: after the deck is built,** remind the owner of "Questions to prepare for" in `deck-outline.md` (5 questions to rehearse spoken answers to).
 
 **Reminder for Claude:** while building the Trend Micro and synthesis slides, ask the owner for more detail on the identify → detect → analyze → recover mapping before using the robotics parallel.
 
@@ -29,9 +31,12 @@ Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audi
 | Oct 30, 2026 | Hold off on slides; work in mentor/discovery mode first | Owner wants to surface the strongest material before producing anything |
 | Oct 30, 2026 | Discovery done; stop detail questions and move to outlining | Owner will fill details while building slides |
 | Oct 30, 2026 | Build the deck in Figma Slides (when the owner asks); about 12-15 min of talking in a 1-hour, 2-3 case interview | Owner's interview format; priorities ranked in the deck outline |
+| Oct 31, 2026 | Build the deck in modules: core (Trend Micro standoff + governance), BenQ module, and a closing bridge swapped per job | The case-study lineup and framing vary by interview; for Amazon Robotics it's likely Robot HMI + DMS + this one |
 | Oct 30, 2026 | Redraw internal Figma artifacts in English for the deck rather than screenshot them | Files are internal and in Chinese; spec requirement 7 |
 
 ## Parked (resume later)
+
+- **Lineup for the Amazon Robotics interview:** likely Robot HMI + DMS + design systems (not final). If DMS is in it, (a) the BenQ part of this deck should be short and refer back to DMS rather than repeat it, and (b) the parked DMS rewrite becomes urgent too.
 
 - **DMS case study**: open questions 1-10 in the Oct 28 conversation, which mirror spec section 11, questions 1-9. Next step after answers: Priority 1 package (spec 8.3).
 - **Subtitle**: proposed dropping "lab teams" from candidate 1 ("Software that robot engineers and security analysts rely on, shaped by how they actually work."). Not yet confirmed.
