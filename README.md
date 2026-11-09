@@ -15,6 +15,7 @@ Tracks the progress and decisions behind updating the portfolio at https://tiffa
 - **Only what matters now.** Each response covers only what's relevant to the current step. Example: while building slides, hold anything about defending or answering in the interview until later.
 - **Exception:** raise anything that changes the framing of the current work early (e.g. which other case studies share the interview), because it shapes what's being built.
 - Park later-stage items in `PROGRESS.md` as reminders, and bring them up when their step comes.
+- **Slides carry short, concise text.** Full sentences go in the speaker notes; the owner says them out loud.
 
 ## Working rules
 

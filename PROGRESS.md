@@ -8,7 +8,7 @@ _Last updated: Nov 9, 2026_
 
 Order: (1) interview slide deck, which is the priority and must be thorough; (2) 1-page web version; (3) full case study.
 
-Mode: **rewriting slide by slide in the owner's words; Claude suggests wording with rationale.** Opening, Trend Micro, BenQ, and synthesis slide 20 suggestions done (Oct 31). The owner is reviewing the suggestions. Don't build slides until the owner asks. Ask only questions that matter for a strong case study or the outline. Detail questions come up while building slides together.
+Mode: **rewriting slide by slide in the owner's words; Claude suggests wording with rationale.** Opening, Trend Micro, BenQ, and synthesis slide 20 suggestions done (Oct 31). **Owner reviewed slides 1-14 (Nov 9)**; status is marked on each slide in `deck-rewrite.md`. Next: owner reviews slides 15-20, plus the slide 8 headline options and the slide 9 framing tweak. Don't build slides until the owner asks. Ask only questions that matter for a strong case study or the outline. Detail questions come up while building slides together.
 
 **Terminology:** the owner was a UX designer at BenQ (the title said "UI designer"; never use it). The two people who owned components and tokens are "GUI designers" or "visual designers."
 
@@ -37,6 +37,8 @@ Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audi
 | Oct 31, 2026 | Keep outline v2 as is; do the wording in a separate `deck-rewrite.md` | Owner request |
 | Oct 31, 2026 | Skip the limits slide; keep the thank-you slide; write slides 21-22 (robotics parallel, how I'd build the next one) after the deck is built | Owner's choice |
 | Oct 31, 2026 | BenQ framed as the larger-scale project with more stakeholders; the synthesis contrasts the two starting points | Owner's framing; title wording still open (A vs. B in `deck-rewrite.md`) |
+| Nov 9, 2026 | Slides carry short text; full sentences go in speaker notes | Owner's presentation style (also in `README.md`) |
+| Nov 9, 2026 | Merge Trend Micro context and goal/scope into one slide with a three-layer diagram; drop the audit transition line | Owner review of slides 1-14 |
 | Oct 30, 2026 | Redraw internal Figma artifacts in English for the deck rather than screenshot them | Files are internal and in Chinese; spec requirement 7 |
 
 ## Parked (resume later)

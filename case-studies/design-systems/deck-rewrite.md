@@ -2,13 +2,17 @@
 
 _Started Oct 31, 2026. Builds on `deck-outline.md` (v2, kept as is). For each slide: the owner's draft, Claude's suggested wording, and why. The owner decides the final wording._
 
+**Slide text rule (owner, Nov 9):** slides carry short, concise text only. Full sentences go in the **speaker notes**, which the owner says out loud. When the deck is built, split every kept suggestion this way.
+
+**Review status (Nov 9):** slides 1-14 reviewed by the owner; each is marked **[KEPT]**, **[REVISED]**, or **[NO CHANGE]** below. Slides 15 onward are not reviewed yet.
+
 **Order (owner's decision):** Opening → **Trend Micro** → BenQ → Synthesis.
 
 ---
 
 ## Opening
 
-### 1. Title
+### 1. Title [KEPT]
 
 **Your draft:** "Building shared patterns for complex tools, twice." Role line: UX Designer, BenQ (2020-2023) and Trend Micro (2023-2024).
 
@@ -18,13 +22,25 @@ _Started Oct 31, 2026. Builds on `deck-outline.md` (v2, kept as is). For each sl
 
 **Why:** list the companies in the order the deck presents them, so the role line previews the structure. The title itself works: "twice" promises a comparison, and the deck delivers one.
 
-### 2. At a glance
+### 2. At a glance [KEPT, exact content below]
 
 **Your draft:** v2 table with Trend Micro on the left and BenQ on the right.
 
-**Suggested:** no wording changes. Keep the rows identical across both columns (starting point, my role, what I built, outcome) so the eye compares across.
+**Slide content:**
 
-### 3. The problem behind both
+| | Trend Micro | BenQ |
+|---|---|---|
+| **Starting point** | Audit across 3 products | No library; built inside DMS, for 5 platforms |
+| **My role** | Solo UX designer | 1 of 2 UX designers |
+| **What I built** | 5 pattern + 6 page guidelines · governance process | General rules + usage guidelines · review and release process |
+| **Outcome** | Design team's shared reference | Adopted across 5 platforms; still in use |
+
+**Why:**
+- Same four rows in both columns, so the eye compares across.
+- Each cell is short enough to read in a glance; the detail comes in each section.
+- "Design team's shared reference" is the honest outcome for Trend Micro; don't claim tracked adoption.
+
+### 3. The problem behind both [KEPT]
 
 **Your draft:** "Inconsistent user experience" / "Inefficient design and documentation workflow" / "Confusing brand representation/reputation"
 
@@ -43,29 +59,20 @@ _Started Oct 31, 2026. Builds on `deck-outline.md` (v2, kept as is). For each sl
 
 ## Part 1: Trend Micro (new order: context → goal and model → audit → standoff → tree → 2 examples → governance → outcome)
 
-### 4. Context and why I started (was 11)
+### 4-5. Trend Micro: context, goal, and scope (merged) [REVISED]
 
-**Your draft:** looks good; you'll add product screenshots after the deck is built.
+**Owner's decision:** merge slides 4 and 5, keep the suggestions, move the long text to speaker notes, and add a visual diagram when building.
 
-**Suggested wording for the "why I started" line:**
-> As a new designer, I kept seeing the same pattern solved differently in design reviews. My manager had wanted this initiative for a while, so I took it on.
+**Slide content:**
+> **Title:** Trend Micro: aligning 3 automotive security products
+> **Products:** xNexus · xZETA · SUMO
+> **Goal:** faster design of recurring features · consistency across products
+> **Diagram:** three stacked layers. **Features & pages** / **Patterns** / **Components (Tonic)**. The top two are highlighted and labeled "My scope."
 
-**Why:** this shows both initiative (you spotted it) and alignment (your manager wanted it) in two sentences. "Kept seeing" carries the evidence without needing numbers.
+**Speaker notes:**
+> As a new designer, I kept seeing the same pattern solved differently in design reviews. My manager had wanted this initiative for a while, so I took it on. The goal was to speed up the design of recurring features and make the three products consistent. I worked on the top two layers: shared features and pages, and the patterns that combine components. Components themselves already existed in Tonic, our existing library.
 
-### 5. Goal and scope (was 13, moved before the audit)
-
-**Your draft:** move this before the audit and add the goals "Accelerate future design of similar features" and "Improve consistency across products."
-
-**Suggested:**
-> **Goal:** accelerate future design of similar features, and improve consistency across products.
-> **Scope:** three layers: common features and pages → common patterns → components (Tonic, the existing library). My work: the top two layers.
-
-**Why:**
-- Lead with the goal, so the model reads as the way you reached it.
-- The "my work" line answers "what was yours?" before anyone asks, and shows you worked above the component level.
-- The goal wording comes straight from your audit's cover page. Keep it, because it's real.
-
-### 6. The audit (was 12, merged with the first half of 14)
+### 6. The audit (was 12, merged with the first half of 14) [KEPT, without the transition line]
 
 **Your draft:**
 > I tried to find the design and identify patterns in all three products, compare them, guess what the purpose is based on the design and my past experience, benchmark external library and internal parent library (VisionOne) that we're deriving from, note down the gaps, inconsistencies, open questions, and potential suggestions, then I walked these through during design meetings and get alignment with all designers.
@@ -77,33 +84,38 @@ _Started Oct 31, 2026. Builds on `deck-outline.md` (v2, kept as is). For each sl
 > 4. **Benchmark:** against Vision One, the parent product our design language derives from, and public systems (IBM Carbon, Ant Design, Adobe).
 > 5. **Note:** gaps, inconsistencies, open questions, and possible fixes.
 > 6. **Align:** walk each product's designers through it in design meetings and agree on the guideline.
->
-> Transition line (spoken or at the bottom of the slide): *Most patterns aligned quickly. One didn't.*
 
 **Why:**
 - A numbered list of verbs scans in seconds; the paragraph version makes the listener hold six ideas in one breath.
 - **"Guess" → "infer intent."** Same honesty, but it sounds like a method rather than a shot in the dark. Keeping "since the rationale wasn't documented" stays truthful about the limit.
 - **"Internal parent library" → "parent product our design language derives from."** Vision One is a product with its own guidelines. Calling it a "library" could invite "so you copied its components?"
-- The transition line builds tension and leads straight into the standoff. It's the cheapest storytelling move in the deck.
 
 ### (was 14: From observation to reasoning). Removed
 
 The first half is merged into slide 6 (step 6). The second half, "one thing that changed my view," is now covered by your two new example slides. See the note at the end of this file.
 
-### 7. The hardest call: modal vs. drawer vs. page (was 15)
+### 7. The hardest call: modal vs. drawer vs. page (was 15) [NO CHANGE]
 
 **Your draft:** good as is.
 
-### 8. The decision tree (was 16)
+### 8. The decision tree (was 16) [REVISED: headline]
 
 **Your draft:** you'll add the full tree visual yourself.
 
-**Suggested slide headline:**
-> We agreed on the questions, so the answers stopped being opinions.
+**Owner's feedback (Nov 9):** the first suggested headline ("We agreed on the questions, so the answers stopped being opinions") was too ad-like and tried too hard to sell. Wanted something like "agreed on how we make decisions, no more subjective opinions."
 
-**Why:** a headline that states the takeaway means the slide makes its point even if the listener only glances at it. This line puts your own words ("hard for them to keep selling on their subjective ideas") in a positive form.
+**Suggested headlines** (plain and descriptive; pick one or adjust):
+> A. Agreed on how we decide, instead of debating opinions
+> B. Shared decision points replaced personal preference
+> C. One way to decide: modal, drawer, or page
 
-### 9. Example 1: a designer's exception became a new branch (new)
+**Why:**
+- All three state what happened without a punchline. They describe the change instead of selling it.
+- **A** is closest to your wording.
+- **B** names what was replaced.
+- **C** is the most neutral: it names the artifact and lets the tree make the point.
+
+### 9. Example 1: a designer's exception became a new branch (new) [KEPT; framing tweak suggested below]
 
 **Your draft:**
 > Initially I wanted to generalize that all actions that require user input should go with side drawer, but a designer pointed out that she made the decision to use a modal instead of a drawer bc most content that use drawer is editable later, but the one instance she designed for was only editable the first time. We then as a team agreed on this branched out pattern to differentiate it from the more common cases where contents are editable.
@@ -118,7 +130,7 @@ The first half is merged into slide 6 (step 6). The second half, "one thing that
 - The rule → pushback → agreement structure makes your listening visible. Your original rule changed because a colleague had a good reason.
 - Name the real case if you can. Your audit lists **"SUMO: add ECU firmware (modal)"**, and the guideline notes modals for "one-time submission/upload; not allowed to edit after the data is added to the table." `[CONFIRM]` Is that the instance? A named case is much more convincing than "one instance."
 
-### 10. Example 2: viewing details needed criteria, not one answer (new)
+### 10. Example 2: viewing details needed criteria, not one answer (new) [KEPT]
 
 **Your draft** (summarized): details were viewed in a page, new tab, modal, or drawer. You first wanted one pattern, then found different reasons behind each (cross-checking, follow-up actions). You agreed on "Large amount of information?" and, since that's subjective, added three follow-up questions. You then gave xNexus, xZETA, and SUMO cases.
 
@@ -142,11 +154,11 @@ The first half is merged into slide 6 (step 6). The second half, "one thing that
 - One case per product shows the rule held across all three. That's the consistency goal from slide 5.
 - **The two examples show different things on purpose:** in example 1, one designer's edge case added a branch; in example 2, team discussion turned an argument into criteria. Say that difference out loud so the second slide doesn't feel like a repeat.
 
-### 11. Governance: how the system grows (was 17)
+### 11. Governance: how the system grows (was 17) [NO CHANGE]
 
 **Your draft:** looks good; you'll add screenshots of the flow. Answer to your question about redrawing is at the end of this file.
 
-### 12. Outcome and honest limits (was 18)
+### 12. Outcome and honest limits (was 18) [NO CHANGE]
 
 **Your draft:** looks good.
 
@@ -154,7 +166,7 @@ The first half is merged into slide 6 (step 6). The second half, "one thing that
 
 ## Part 2: BenQ (owner's draft Oct 31; v2 slides 4-10 → 13-19)
 
-### 13. Context (was 4)
+### 13. Context (was 4) [REVISED: concise slide text]
 
 **Your draft:**
 - The 5 platforms were built at different times by different designers. The design language was loosely shared but not consistent.
@@ -163,16 +175,17 @@ The first half is merged into slide 6 (step 6). The second half, "one thing that
 - "All built with the same system" is misleading.
 - Challenges: (1) inconsistent UX across apps that may have the same users; (2) a fragmented design workflow across products; (3) no streamlined workflow between designers and engineers, which slowed iteration.
 
-**Suggested:**
-> **5 web platforms for K-12 IT, built at different times by different designers.**
+**Slide content:**
+> **Title:** BenQ: 5 platforms, built separately
 > DMS · AMS · IAM · X-Sign Broadcast · X-Sign Signage
 >
-> Each product had evolved on its own. The design language was loosely shared, components weren't, and the team wasn't in the habit of aligning on patterns across the suite.
->
-> **Three challenges:**
-> 1. **Same users, different experiences:** an IT admin using several of these apps had to relearn each one.
-> 2. **Every product designed on its own:** no shared components or patterns between product teams.
-> 3. **Slow handoff to engineering:** no shared workflow between designers and engineers, so every iteration took longer.
+> **Challenges**
+> 1. Same users, different experiences
+> 2. Each product designed in isolation
+> 3. Slow designer–engineer handoff
+
+**Speaker notes:**
+> These 5 web platforms serve K-12 IT teams. They were built at different times by different designers. The design language was loosely shared, but components weren't, and the team wasn't in the habit of aligning on patterns across the suite. That caused three problems. An IT admin using several of these apps had to relearn each one. Each product team designed on its own, with no shared components or patterns. And there was no shared workflow between designers and engineers, so every iteration took longer.
 
 **Why:**
 - **Correction, which matters:** Figma had components and shared team libraries well before 2020, so "Figma didn't have components" could be challenged by an interviewer who knows Figma's history. What was really missing was the *team's practice* of sharing them. "Components weren't shared" and "the team wasn't in the habit" say the true thing and can't be disputed. The same applies to slide 15.
@@ -181,7 +194,7 @@ The first half is merged into slide 6 (step 6). The second half, "one thing that
 - I dropped "all built with the same system," as you asked.
 - **Overlap check with slide 3:** slide 3 is the general problem; this slide is BenQ's specific version. Keep it concrete here (who the users are, what was split) so it doesn't sound like a repeat.
 
-### 14. Build the system while building the product (was 5)
+### 14. Build the system while building the product (was 5) [KEPT]
 
 **Your draft:** "Can engineering build it?" needs more context. Engineers didn't build components from scratch; they built on the open-source framework Vuetify. That brought many technical limits, and bigger customizations needed strong justification.
 
@@ -345,3 +358,38 @@ The remaining reason is **legibility**. The flow has about 30 boxes across two l
 3. **Simplified redraw:** 5-6 boxes showing only the logic. Most legible, most work.
 
 **Recommendation: option 1.** It keeps your real artifact, which shows authenticity, while directing attention to what matters.
+
+### Is example 1 too bland, or does it make me look submissive? (slide 9, Nov 9)
+
+**Short answer:** as written, it can read that way. The facts aren't the problem; the framing is.
+
+"My first rule → the pushback → what we agreed" puts you in the role of the person who got corrected. What actually happened is stronger:
+- You were defining rules for everyone, and a designer's choice didn't fit.
+- You didn't overrule her, and you didn't wave it through as a one-off exception either. You took her reasoning seriously.
+- Her reasoning held up, so instead of a local exception it became **a rule every product follows**.
+
+Turning one person's judgment into a shared rule is a leadership move, not a submissive one. It's also exactly the method you described for the whole project: ask for the reasoning behind each design.
+
+**Suggested framing tweak** (slide text):
+> **Title:** Example 1: a case that didn't fit became a rule
+> - **My first rule:** user input → drawer
+> - **A case that didn't fit:** one-time input in a modal
+> - **Her reasoning:** drawers hold content users edit again; this input couldn't be edited later
+> - **Outcome:** a new decision point for all products: "Edited again, or shown in view mode?" Yes → drawer; No → modal
+
+**Speaker notes:**
+> Rather than overruling her or treating it as a one-off exception, I asked for the reasoning. It held up, so we made it a rule every product follows.
+
+**On conflict:** this example isn't where you show conflict resolution, and it doesn't need to be. Its job is to show you listen and that your rules get better with input. Slide 7 (the standoff) and example 2 carry the conflict. Having one calm example next to one harder one is a good balance: it shows you can tell a reasonable point from resistance.
+
+### Is example 2 strong enough to cover what example 1 doesn't show? (slide 10, Nov 9)
+
+**Mostly, yes.** Example 2 shows what example 1 can't:
+- **Many designers, many competing reasons,** not one person with one point.
+- **Several rounds of discussion,** settled with criteria rather than a vote or your authority.
+- **Judgment where judgment is unavoidable:** "Large amount of information" is subjective, so you added questions to narrow it.
+- **Proof it worked across all 3 products,** one case each.
+
+**One gap:** the conflict is still abstract ("after rounds of discussions"). The slide shows the result, but not a moment of disagreement. One concrete point of friction would make it the strongest slide in the section, said in the speaker notes rather than on the slide. For example: who argued for which container, and which question settled it.
+
+`[OPTIONAL, fill in while building]` If one moment comes to mind, add it to the speaker notes. If not, the slide still works. The two `[CONFIRM]` items (which question decided the xNexus and xZETA cases) matter more, because they make the tree look like a tool you actually used.
