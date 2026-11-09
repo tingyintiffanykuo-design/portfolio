@@ -1,6 +1,6 @@
 # Progress
 
-_Last updated: Oct 31, 2026_
+_Last updated: Nov 9, 2026_
 
 ## Current focus
 
@@ -52,7 +52,7 @@ Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audi
 - **Subtitle**: proposed dropping "lab teams" from candidate 1 ("Software that robot engineers and security analysts rely on, shaped by how they actually work."). Not yet confirmed.
 - **DMS "See next project" link**: points to the excluded e-commerce page. Fix pending a decision (Robot HMI vs. remove).
 - **Network:** www.benq.com is blocked by the cloud environment's network policy. To fix, add it under the environment's Network access > Allowed domains.
-- **Screenshots** of the DMS page images and GIFs: the owner will add them later. Ask when the visual review is needed.
+- **Screenshots** of the DMS page: the owner uploaded `design-1.gif`, `design-2.gif`, `design-3.gif`, and `dms-old-screenshot.png` to `main` (Oct 29). Not reviewed yet; use them for the DMS visual review when that work resumes.
 
 ## Notes
 
