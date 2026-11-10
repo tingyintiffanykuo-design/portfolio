@@ -8,7 +8,7 @@ _Last updated: Nov 9, 2026_
 
 Order: (1) interview slide deck, which is the priority and must be thorough; (2) 1-page web version; (3) full case study.
 
-Mode: **rewriting slide by slide in the owner's words; Claude suggests wording with rationale.** Opening, Trend Micro, BenQ, and synthesis slide 20 suggestions done (Oct 31). **Owner reviewed slides 1-14 (Nov 9)**; status is marked on each slide in `deck-rewrite.md`. Next: owner reviews slides 15-20, plus the slide 8 headline options and the slide 9 framing tweak. Don't build slides until the owner asks. Ask only questions that matter for a strong case study or the outline. Detail questions come up while building slides together.
+Mode: **rewriting slide by slide in the owner's words; Claude suggests wording with rationale.** Opening, Trend Micro, BenQ, and synthesis slide 20 suggestions done (Oct 31). **Owner finished reviewing all slides (Nov 10).** Building the deck in Figma Slides: https://www.figma.com/slides/P5NNQekTnLT58tfvLv7om7 The owner asked to build the deck (Nov 10). Ask only questions that matter for a strong case study or the outline. Detail questions come up while building slides together.
 
 **Terminology:** the owner was a UX designer at BenQ (the title said "UI designer"; never use it). The two people who owned components and tokens are "GUI designers" or "visual designers."
 

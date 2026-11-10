@@ -4,7 +4,7 @@ _Started Oct 31, 2026. Builds on `deck-outline.md` (v2, kept as is). For each sl
 
 **Slide text rule (owner, Nov 9):** slides carry short, concise text only. Full sentences go in the **speaker notes**, which the owner says out loud. When the deck is built, split every kept suggestion this way.
 
-**Review status (Nov 9):** slides 1-14 reviewed by the owner; each is marked **[KEPT]**, **[REVISED]**, or **[NO CHANGE]** below. Slides 15 onward are not reviewed yet.
+**Review status (Nov 10):** all slides reviewed by the owner; each is marked below. The deck is being built in Figma Slides: https://www.figma.com/slides/P5NNQekTnLT58tfvLv7om7
 
 **Order (owner's decision):** Opening → **Trend Micro** → BenQ → Synthesis.
 
@@ -98,7 +98,7 @@ The first half is merged into slide 6 (step 6). The second half, "one thing that
 
 **Your draft:** good as is.
 
-### 8. The decision tree (was 16) [REVISED: headline]
+### 8. The decision tree (was 16) [REVISED: headline B chosen, Nov 10]
 
 **Your draft:** you'll add the full tree visual yourself.
 
@@ -115,7 +115,7 @@ The first half is merged into slide 6 (step 6). The second half, "one thing that
 - **B** names what was replaced.
 - **C** is the most neutral: it names the artifact and lets the tree make the point.
 
-### 9. Example 1: a designer's exception became a new branch (new) [KEPT; framing tweak suggested below]
+### 9. Example 1: a case that didn't fit became a rule (new) [REVISED: reframe kept, Nov 10; see the answer at the end of this file]
 
 **Your draft:**
 > Initially I wanted to generalize that all actions that require user input should go with side drawer, but a designer pointed out that she made the decision to use a modal instead of a drawer bc most content that use drawer is editable later, but the one instance she designed for was only editable the first time. We then as a team agreed on this branched out pattern to differentiate it from the more common cases where contents are editable.
@@ -211,7 +211,7 @@ The first half is merged into slide 6 (step 6). The second half, "one thing that
 - "Customize only when it's worth defending" turns a constraint into judgment. That's what senior roles screen for: designing within real technical limits instead of handing engineers a wishlist. It's also directly relevant to robotics, where hardware and software limits are everywhere.
 - `[OPTIONAL, fill in while building]` One example of a customization you fought for, or one you dropped because it wasn't worth it, would make this slide memorable. If none comes to mind, the slide still works without it.
 
-### 15. Who owned what (was 6, shortened)
+### 15. Who owned what (was 6, shortened) [KEPT]
 
 **Your draft:**
 - You worked on the general rules, including the usage guidelines for those patterns.
@@ -230,7 +230,7 @@ The first half is merged into slide 6 (step 6). The second half, "one thing that
 - **"Component UI building" → "lo-fi component structure."** It avoids the word "UI" (your terminology rule) and makes it clear that your part was the structure the visuals were built on. That's the same "backbone" claim as your DMS case, which keeps your story consistent.
 - I dropped the Figma-history line here for the reason given on slide 13. If someone asks why the UX designers went first, the answer is simple: the visuals needed a structure to start from.
 
-### 16. What's in it (was 7)
+### 16. What's in it (was 7) [KEPT]
 
 **Your question:** what's my suggestion for redrawing the inventory map?
 
@@ -250,7 +250,7 @@ The first half is merged into slide 6 (step 6). The second half, "one thing that
 - **Showing rules and components together** mirrors your Trend Micro layer model (patterns above components). The listener sees the same way of thinking at both companies without you having to say it.
 - **Option:** given your time budget, this could be a 10-second glance slide or move to the appendix. Decide once the deck is built and you can time it.
 
-### 17. Anatomy of a rule (was 8)
+### 17. Anatomy of a rule (was 8) [PLACEHOLDER: owner edits examples directly in Figma]
 
 **Your draft:** show two examples, one component guideline (toast) and one general rule (search / filter / sorting). Do this as a separate task after the deck is built.
 
@@ -261,7 +261,7 @@ The first half is merged into slide 6 (step 6). The second half, "one thing that
 - Two examples at two levels (a component and a pattern) show you work across layers, which again echoes Trend Micro.
 - I've parked the details of the two examples as a task for after the deck is built, as you asked.
 
-### 18. The process that kept it alive (was 9)
+### 18. The process that kept it alive (was 9) [KEPT]
 
 **Your draft:** keep the original diagram to keep it real, and maybe annotate it in English. Or should you translate the whole thing?
 
@@ -279,7 +279,7 @@ The first half is merged into slide 6 (step 6). The second half, "one thing that
 - The 3 callouts are the payoff for challenge 3 on slide 13 (slow handoff to engineering). The headline says so.
 - `[CHECK]` It's an internal BenQ file. It's a process diagram, not product screens, so the risk is low, but confirm you're comfortable showing it.
 
-### 19. Outcome: a larger scale with more people to align (was 10)
+### 19. Outcome: a larger scale with more people to align (was 10) [KEPT]
 
 **Your draft:** frame BenQ as a larger-scale project with a lot more stakeholders to navigate.
 
@@ -299,7 +299,7 @@ The first half is merged into slide 6 (step 6). The second half, "one thing that
 
 ## Synthesis
 
-### 20. Two starting points (was 19)
+### 20. Two starting points (was 19) [KEPT: title option A]
 
 **Your draft:**
 - **Title idea:** BenQ is more of a top-down process, since there was no existing library and auditing wasn't worth the time. Trend Micro is more of a bottom-up process, with an established library you wanted to branch out from.
