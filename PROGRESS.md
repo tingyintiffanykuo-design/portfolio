@@ -1,6 +1,6 @@
 # Progress
 
-_Last updated: Nov 9, 2026_
+_Last updated: Nov 11, 2026_
 
 ## Current focus
 
@@ -8,7 +8,7 @@ _Last updated: Nov 9, 2026_
 
 Order: (1) interview slide deck, which is the priority and must be thorough; (2) 1-page web version; (3) full case study.
 
-Mode: **rewriting slide by slide in the owner's words; Claude suggests wording with rationale.** Opening, Trend Micro, BenQ, and synthesis slide 20 suggestions done (Oct 31). **Owner finished reviewing all slides (Nov 10).** Building the deck in Figma Slides: https://www.figma.com/slides/P5NNQekTnLT58tfvLv7om7 The owner asked to build the deck (Nov 10). Ask only questions that matter for a strong case study or the outline. Detail questions come up while building slides together.
+Mode: **rewriting slide by slide in the owner's words; Claude suggests wording with rationale.** Opening, Trend Micro, BenQ, and synthesis slide 20 suggestions done (Oct 31). **Deck v1 built in Figma Slides (Nov 11):** https://www.figma.com/slides/P5NNQekTnLT58tfvLv7om7. It has 22 slides in 4 sections (Opening, Trend Micro, BenQ, Synthesis), with speaker notes on the slides that have long text. Visuals that need the owner's input are dashed boxes labeled PLACEHOLDER. Next: the owner reviews the deck and fills the placeholders. The owner asked to build the deck (Nov 10). Ask only questions that matter for a strong case study or the outline. Detail questions come up while building slides together.
 
 **Terminology:** the owner was a UX designer at BenQ (the title said "UI designer"; never use it). The two people who owned components and tokens are "GUI designers" or "visual designers."
 
@@ -39,6 +39,8 @@ Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audi
 | Oct 31, 2026 | BenQ framed as the larger-scale project with more stakeholders; the synthesis contrasts the two starting points | Owner's framing; title wording still open (A vs. B in `deck-rewrite.md`) |
 | Nov 9, 2026 | Slides carry short text; full sentences go in speaker notes | Owner's presentation style (also in `README.md`) |
 | Nov 9, 2026 | Merge Trend Micro context and goal/scope into one slide with a three-layer diagram; drop the audit transition line | Owner review of slides 1-14 |
+| Nov 11, 2026 | Deck style: IBM Plex Sans + Plex Mono; ink/paper palette with one orange accent; stacked-bars motif echoing the three-layer model | Claude's design call; owner can change it |
+| Nov 11, 2026 | Figma tools run without permission prompts (`.claude/settings.json`) | Owner request |
 | Oct 30, 2026 | Redraw internal Figma artifacts in English for the deck rather than screenshot them | Files are internal and in Chinese; spec requirement 7 |
 
 ## Parked (resume later)
