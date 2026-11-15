@@ -1,0 +1,65 @@
+# Progress
+
+_Last updated: Nov 15, 2026_
+
+## Current focus
+
+**Design systems case study** (BenQ + Trend Micro), for the Amazon Robotics Sr. Product Designer application (`jobs/amazon-robotics-sr-product-designer.md`). Working notes: `case-studies/design-systems/notes.md`. Deck outline (v2, kept as reference): `case-studies/design-systems/deck-outline.md`. **Working rewrite:** `case-studies/design-systems/deck-rewrite.md`.
+
+Order: (1) interview slide deck, which is the priority and must be thorough; (2) 1-page web version; (3) full case study.
+
+Mode: **rewriting slide by slide in the owner's words; Claude suggests wording with rationale.** Opening, Trend Micro, BenQ, and synthesis slide 20 suggestions done (Oct 31). **Deck v1 built in Figma Slides (Nov 11):** https://www.figma.com/slides/P5NNQekTnLT58tfvLv7om7. It has 22 slides in 4 sections (Opening, Trend Micro, BenQ, Synthesis), with speaker notes on the slides that have long text. Visuals that need the owner's input are dashed boxes labeled PLACEHOLDER. Next: the owner reviews the deck and fills the placeholders. **Phase 1 blueprint for new sessions: `DS_DECK_PHASE1.md`.** The owner asked to build the deck (Nov 10). Ask only questions that matter for a strong case study or the outline. Detail questions come up while building slides together.
+
+**Terminology:** the owner was a UX designer at BenQ (the title said "UI designer"; never use it). The two people who owned components and tokens are "GUI designers" or "visual designers."
+
+Status: BenQ facts collected and the BenQ Figma files reviewed. Trend Micro audit and guideline files reviewed (notes section 9). Deck outline revised to v2 around the sharpened story (Oct 30). Both collaboration practice docs reviewed (notes section 10). Open `[ASK]` items are in notes sections 9 and 10.
+
+**Reminders for Claude, after the deck is built:**
+1. "Questions to prepare for" in `deck-outline.md`: 5 questions to rehearse spoken answers to.
+2. The two interview-lineup suggestions under "Parked": keep the BenQ part short if DMS is presented in the same hour; the DMS rewrite may become urgent. The owner agreed both are good.
+
+**Reminder for Claude:** while building the Trend Micro and synthesis slides, ask the owner for more detail on the identify → detect → analyze → recover mapping before using the robotics parallel.
+
+## Decision log
+
+| Date | Decision | Why |
+|---|---|---|
+| Oct 14, 2026 | Positioning, headline, AI claims policy, and case study lineup | See `portfolio-spec.md` sections 5, 6, and 10 |
+| Oct 28, 2026 | This repo holds progress and decisions, not just the spec | Owner works across devices and needs the context to travel |
+| Oct 28, 2026 | Drafting split: owner writes narrative; Claude drafts factual blocks and gives structure and line edits | Keeps the core writing in the owner's voice (spec requirement 9) |
+| Oct 28, 2026 | Pause the DMS rewrite; prioritize a design systems case study | Amazon Robotics JD asks for "scalable mechanisms and reusable design patterns"; more urgent than DMS |
+| Oct 30, 2026 | Resume is the source of truth where it conflicts with the spec | Owner confirmed the resume claims |
+| Oct 30, 2026 | One combined BenQ + Trend Micro case study; deck first, then 1-page web, then full | Interview use is most urgent |
+| Oct 30, 2026 | Hold off on slides; work in mentor/discovery mode first | Owner wants to surface the strongest material before producing anything |
+| Oct 30, 2026 | Discovery done; stop detail questions and move to outlining | Owner will fill details while building slides |
+| Oct 30, 2026 | Build the deck in Figma Slides (when the owner asks); about 12-15 min of talking in a 1-hour, 2-3 case interview | Owner's interview format; priorities ranked in the deck outline |
+| Oct 31, 2026 | Deck order: Opening → Trend Micro → BenQ → Synthesis | Owner's choice: lead with the strongest material |
+| Oct 31, 2026 | Keep outline v2 as is; do the wording in a separate `deck-rewrite.md` | Owner request |
+| Oct 31, 2026 | Skip the limits slide; keep the thank-you slide; write slides 21-22 (robotics parallel, how I'd build the next one) after the deck is built | Owner's choice |
+| Oct 31, 2026 | BenQ framed as the larger-scale project with more stakeholders; the synthesis contrasts the two starting points | Owner's framing; title wording still open (A vs. B in `deck-rewrite.md`) |
+| Nov 9, 2026 | Slides carry short text; full sentences go in speaker notes | Owner's presentation style (also in `README.md`) |
+| Nov 9, 2026 | Merge Trend Micro context and goal/scope into one slide with a three-layer diagram; drop the audit transition line | Owner review of slides 1-14 |
+| Nov 11, 2026 | Deck style: IBM Plex Sans + Plex Mono; ink/paper palette with one orange accent; stacked-bars motif echoing the three-layer model | Claude's design call; owner can change it |
+| Nov 11, 2026 | Figma tools run without permission prompts (`.claude/settings.json`) | Owner request |
+| Oct 30, 2026 | Redraw internal Figma artifacts in English for the deck rather than screenshot them | Files are internal and in Chinese; spec requirement 7 |
+
+## Parked (resume later)
+
+- **After the deck is built:** do slide 17 (anatomy of a rule) as a separate task, with two examples: the toast component guideline and the search / filter / sorting general rule.
+- **BenQ process diagram (slide 18):** Claude suggests keeping the original, overlaying English box labels, and adding 3 callouts. Owner to decide.
+
+- **Governance flow visual (not decided):** Claude recommends a screenshot with highlights over a redraw (English, process-only; the issue is legibility). Owner to decide. Details at the end of `deck-rewrite.md`.
+
+- **Interview lineup (not final):** for the Amazon Robotics 1-hour interview, the other case studies will likely be **Robot HMI and DMS**, alongside this design systems case. Other interviews may use a different set of projects, framed differently for each role. Claude's suggestions, which the owner liked; bring them up after the deck is built: (a) if DMS is presented in the same hour, keep the BenQ part of this deck short so it doesn't repeat DMS; (b) the parked DMS rewrite may then become urgent too.
+
+- **DMS case study**: open questions 1-10 in the Oct 28 conversation, which mirror spec section 11, questions 1-9. Next step after answers: Priority 1 package (spec 8.3).
+- **Subtitle**: proposed dropping "lab teams" from candidate 1 ("Software that robot engineers and security analysts rely on, shaped by how they actually work."). Not yet confirmed.
+- **DMS "See next project" link**: points to the excluded e-commerce page. Fix pending a decision (Robot HMI vs. remove).
+- **Network:** www.benq.com is blocked by the cloud environment's network policy. To fix, add it under the environment's Network access > Allowed domains.
+- **Screenshots** of the DMS page: the owner uploaded `design-1.gif`, `design-2.gif`, `design-3.gif`, and `dms-old-screenshot.png` to `main` (Oct 29). Not reviewed yet; use them for the DMS visual review when that work resumes.
+
+## Notes
+
+- **Resume fix (owner):** the Trend Micro line should say 3 platforms, not 4. Also consider "5 pattern and 6 page guidelines" instead of "11 reusable UI patterns."
+
+- Resume (`Resume_Amazon Robotics_Product Designer_Tiffany Kuo.pdf`) lists experience the spec doesn't cover: Tactile (UX Designer, Apr 2026 to present; this appears to be the Robot HMI project) and Fluke (UX Research Intern, 2025). The spec says "about 3 years"; the resume says "4+". Reconcile in the spec when convenient.
