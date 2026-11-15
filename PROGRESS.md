@@ -1,6 +1,6 @@
 # Progress
 
-_Last updated: Nov 11, 2026_
+_Last updated: Nov 15, 2026_
 
 ## Current focus
 
@@ -8,7 +8,7 @@ _Last updated: Nov 11, 2026_
 
 Order: (1) interview slide deck, which is the priority and must be thorough; (2) 1-page web version; (3) full case study.
 
-Mode: **rewriting slide by slide in the owner's words; Claude suggests wording with rationale.** Opening, Trend Micro, BenQ, and synthesis slide 20 suggestions done (Oct 31). **Deck v1 built in Figma Slides (Nov 11):** https://www.figma.com/slides/P5NNQekTnLT58tfvLv7om7. It has 22 slides in 4 sections (Opening, Trend Micro, BenQ, Synthesis), with speaker notes on the slides that have long text. Visuals that need the owner's input are dashed boxes labeled PLACEHOLDER. Next: the owner reviews the deck and fills the placeholders. The owner asked to build the deck (Nov 10). Ask only questions that matter for a strong case study or the outline. Detail questions come up while building slides together.
+Mode: **rewriting slide by slide in the owner's words; Claude suggests wording with rationale.** Opening, Trend Micro, BenQ, and synthesis slide 20 suggestions done (Oct 31). **Deck v1 built in Figma Slides (Nov 11):** https://www.figma.com/slides/P5NNQekTnLT58tfvLv7om7. It has 22 slides in 4 sections (Opening, Trend Micro, BenQ, Synthesis), with speaker notes on the slides that have long text. Visuals that need the owner's input are dashed boxes labeled PLACEHOLDER. Next: the owner reviews the deck and fills the placeholders. **Phase 1 blueprint for new sessions: `DS_DECK_PHASE1.md`.** The owner asked to build the deck (Nov 10). Ask only questions that matter for a strong case study or the outline. Detail questions come up while building slides together.
 
 **Terminology:** the owner was a UX designer at BenQ (the title said "UI designer"; never use it). The two people who owned components and tokens are "GUI designers" or "visual designers."
 

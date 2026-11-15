@@ -5,6 +5,7 @@ Tracks the progress and decisions behind updating the portfolio at https://tiffa
 ## Start here
 
 1. `PROGRESS.md`: current focus, decision log, parked items. Read this first.
+   - For the design systems deck, start with `DS_DECK_PHASE1.md` (finalized blueprint and status).
 2. `portfolio-spec.md`: the original positioning and DMS review spec (Oct 14, 2026).
 3. `case-studies/<name>/`: one folder per case study, holding notes, open questions, and drafts.
 4. `jobs/`: job descriptions being targeted, saved as source text.
